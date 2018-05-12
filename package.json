@@ -1,0 +1,20 @@
+{
+  "name": "unstated-color-switcher",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "polished": "^1.9.2",
+    "rcolor": "^1.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.2.6",
+    "unstated": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
