@@ -1,16 +1,21 @@
 import { Container } from 'unstated'
 import rcolor from 'rcolor'
 
+const init = rcolor()
+
 class ColorContainer extends Container {
   state = {
-    value: null
+    color: init
   }
 
-  update = () => {
+  make = () => {
+    const color = rcolor()
     this.setState({
-      value: rcolor()
+      color
     })
   }
+
+  active = () => this.state.color
 }
 
 export default ColorContainer

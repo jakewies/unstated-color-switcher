@@ -29,6 +29,8 @@ export const Button = styled.button`
   font-size: 1.2rem;
   background: #eee;
   width: 150px;
+  cursor: pointer;
+  margin: 0 10px;
 
   &:focus {
     outline: 0;
